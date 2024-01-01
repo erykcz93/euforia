@@ -1,0 +1,11 @@
+@media (min-width: 568px) {
+	.header {
+		.nav {
+			&__mobile {
+				a {
+					padding: 13px;
+				}
+			}
+		}
+	}
+}

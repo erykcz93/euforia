@@ -59,6 +59,27 @@ body {
 		}
 	}
 
+	&__logo {
+
+		.logo__handler {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 100px;
+			&--img {
+				width: 150px;
+				height: 150px;
+			}
+		}
+	}
+
+	&__description {
+		color: #fff;
+		text-align: center;
+		margin-top: 20px;
+		text-transform: uppercase;
+	}
+
 	// NAVIGATION
 	.nav {
 		display: flex;

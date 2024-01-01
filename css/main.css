@@ -171,6 +171,22 @@ body {
   background-color: #fff;
   z-index: 500;
 }
+.header__logo .logo__handler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.header__logo .logo__handler--img {
+  width: 150px;
+  height: 150px;
+}
+.header__description {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
 .header .nav {
   display: flex;
   justify-content: center;
@@ -227,6 +243,9 @@ body {
 @media (min-width: 568px) {
   .header .nav__mobile a {
     padding: 13px;
+  }
+  .header__logo .logo__handler {
+    margin-top: 50px;
   }
 }
 @media (min-width: 768px) {

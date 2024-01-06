@@ -143,51 +143,19 @@ body {
   overflow: hidden;
 }
 
-.header {
-  overflow: hidden;
-}
-.header__text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.header__text__title {
-  font-size: 1.6rem;
-}
-.header__shadow {
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.header .hamburger {
+.hamburger {
   position: absolute;
   top: 3.5em;
   left: 1em;
   transform: translateY(-50%);
   z-index: 500;
 }
-.header .hamburger-inner, .header .hamburger-inner::before, .header .hamburger-inner::after {
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
   background-color: #fff;
   z-index: 500;
 }
-.header__logo .logo__handler {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-}
-.header__logo .logo__handler--img {
-  width: 150px;
-  height: 150px;
-}
-.header__description {
-  color: #fff;
-  text-align: center;
-  margin-top: 20px;
-  text-transform: uppercase;
-}
-.header .nav {
+
+.nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -197,10 +165,10 @@ body {
   transform: translateX(102%);
   transition: transform 0.3s linear;
 }
-.header .nav--active {
+.nav--active {
   transform: translateX(0);
 }
-.header .nav__mobile {
+.nav__mobile {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -210,16 +178,16 @@ body {
   background-color: #3b3b3b;
   padding: 20px;
 }
-.header .nav__mobile a {
+.nav__mobile a {
   font-size: 1.6rem;
   padding: 20px;
   width: 100%;
   text-align: center;
 }
-.header .nav__mobile .nav-item-animation {
+.nav__mobile .nav-item-animation {
   animation: navItemsAnimation 1s both;
 }
-.header .nav__desktop {
+.nav__desktop {
   display: none;
 }
 

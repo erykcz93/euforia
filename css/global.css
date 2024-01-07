@@ -2,4 +2,9 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   color: #eee;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
 }/*# sourceMappingURL=global.css.map */

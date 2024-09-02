@@ -165,6 +165,7 @@ body {
   height: 100%;
   transform: translateX(102%);
   transition: transform 0.3s linear;
+  overflow: hidden;
 }
 .nav--active {
   transform: translateX(0);
